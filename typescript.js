@@ -32,12 +32,8 @@ console.log(concatenaString("buon", "pomeriggio"));
 //7)Cos'è un Type Union e come si scrive?
 //un Union Type consente a una variabile di avere più di un tipo possibile
 var phrase;
-phrase = 50;
-console.log(phrase);
 //8)Crea una variabile che possa contenere un numero, null o undefined.
 var number3;
-number3 = 50;
-console.log(number3);
 // 10) Tipizza il seguente array di numeri nei due modi possibili:
 // const numbers = [1, 2, 3]
 var numbers = [1, 2, 3];

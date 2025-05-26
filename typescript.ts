@@ -42,15 +42,10 @@ console.log(concatenaString("buon", "pomeriggio"));
 //un Union Type consente a una variabile di avere più di un tipo possibile
 
 let phrase: string | number;
-phrase = 50;
-console.log(phrase);
 
 //8)Crea una variabile che possa contenere un numero, null o undefined.
 
 let number3: number | null | undefined;
-
-number3 = 50;
-console.log(number3);
 
 // 9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
 type DayWeek = "Lunedì" | "Martedì" | "Mercoledì" | "Giovedì" | "Venerdì" | "Sabato" | "Domenica";
