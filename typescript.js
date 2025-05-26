@@ -58,5 +58,7 @@ var person = {
 // 16) Crea un'interfaccia base "Veicolo" e estendila per creare "Auto".
 // 17) Crea un oggetto che implementi l'interfaccia Auto.
 // 18) Cosa sono i Generics in TypeScript?
+//I Generics permettono di definire funzioni, classi o interfacce che sono in grado di lavorare con diversi tipi di dati.Es:argomenti di tipo.
 // 19) È possibile avere più tipi generici in un'interfaccia?
+//si
 // 20) Crea un'interfaccia generica per una risposta API.
