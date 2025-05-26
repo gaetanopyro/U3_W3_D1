@@ -32,13 +32,14 @@ console.log(10 + 5);
 // }
 
 //6) Crea una funzione che concateni due stringhe e restituisca la lunghezza totale.
-// function concatenaString(buon: string, pomeriggio: string): string {
-//   const concatenata: string = buon + pomeriggio;
-//   return concatenata.length;
-// }
-// console.log(concatenaString("buon", "pomeriggio"));
+function concatenaString(buon: string, pomeriggio: string): number {
+  const concatenata: string = buon + pomeriggio;
+  return concatenata.length;
+}
+console.log(concatenaString("buon", "pomeriggio"));
 
 //7)Cos'è un Type Union e come si scrive?
+//un Union Type consente a una variabile di avere più di un tipo possibile
 
 let phrase: string | number;
 phrase = 50;
