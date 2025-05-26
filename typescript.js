@@ -37,7 +37,6 @@ console.log(phrase);
 var number3;
 number3 = 50;
 console.log(number3);
-// 9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
 // 10) Tipizza il seguente array di numeri nei due modi possibili:
 // const numbers = [1, 2, 3]
 var numbers = [1, 2, 3];
@@ -53,10 +52,21 @@ var person = {
     lastname: "Verdi",
     age: 65,
 };
-// 14) Crea un'interfaccia per un utente con email obbligatoria e telefono opzionale.
-// 15) Crea un array tipizzato di oggetti "Studente" con nome e voto.
-// 16) Crea un'interfaccia base "Veicolo" e estendila per creare "Auto".
+var studenti = [
+    { name: "Aldo", voto: 70 },
+    { name: "Giovanni", voto: 99 },
+    { name: "Giacomo", voto: 100 },
+];
+console.log(studenti);
 // 17) Crea un oggetto che implementi l'interfaccia Auto.
+var myAuto = {
+    marca: "Fiat",
+    modello: "Grande Punto",
+    anno: 2006,
+    numeroPorte: 3,
+    alimentazione: "diesel",
+};
+console.log(myAuto);
 // 18) Cosa sono i Generics in TypeScript?
 //I Generics permettono di definire funzioni, classi o interfacce che sono in grado di lavorare con diversi tipi di dati.Es:argomenti di tipo.
 // 19) È possibile avere più tipi generici in un'interfaccia?
