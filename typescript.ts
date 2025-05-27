@@ -11,12 +11,10 @@ let studyTypescript: boolean = true;
 
 //3) Tipizza il parametro della seguente funzione:
 //const greet = (name) => {  return "Ciao " + name }
-let nam: string = "Mario";
-
 const greet = (nam: string) => {
   return "Ciao " + nam;
 };
-console.log(greet("Mario"));
+console.log(greet(myName));
 
 //4) Specifica il tipo di ritorno della seguente funzione:
 //const sum = (a: number, b: number) => {  return a + b }

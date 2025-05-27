@@ -9,11 +9,10 @@ var age = 30;
 var studyTypescript = true;
 //3) Tipizza il parametro della seguente funzione:
 //const greet = (name) => {  return "Ciao " + name }
-var nam = "Mario";
 var greet = function (nam) {
     return "Ciao " + nam;
 };
-console.log(greet("Mario"));
+console.log(greet(myName));
 //4) Specifica il tipo di ritorno della seguente funzione:
 //const sum = (a: number, b: number) => {  return a + b }
 var sum = function (a, b) {
